@@ -1,4 +1,4 @@
 print("Number 1\tAmerican Elm")
-print("Number 1\tSugar Maple")
-print("Number 1\tRed Oak")
-print("Number 1\tAmerican Beech")
+print("Number 2\tSugar Maple")
+print("Number 3\tRed Oak")
+print("Number 4\tAmerican Beech")

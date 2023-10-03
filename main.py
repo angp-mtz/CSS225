@@ -1,5 +1,8 @@
-first_name = input("please enter your first name: ")
-last_name = input("please enter your last name: ")
-print("hello, ", first_name, last_name + ", nice to meet you!")
-age = input("how old are you, " + first_name + '? ')
-print(first_name + ', you were born in the year', 2023-int(age), ":D")
+print("today is a good day to learn python :D")
+print("python is fun")
+print("python's strings are easy to use")
+print("hello" + ' ' + "world")
+greeting = "hello"
+name = input("please enter your name: ")
+print(greeting + ' ' + name)
+

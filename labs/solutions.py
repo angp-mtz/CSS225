@@ -40,11 +40,11 @@ fahrenheit = 'F'
 celcius = 'C'
 convert = input("convert to fahrenheit (F) or celcius (C) degrees?: ") # problem 6 - converts temperature F and C
 if convert == fahrenheit:
-    tempF = float(input("enter the temperature: "))
-    print("the conversion is: ", ((tempF - 32) * 5/9))
-if convert == celcius:
     tempC = float(input("enter the temperature: "))
     print("the conversion is: ", ((tempC * 9/5) + 32))
+if convert == celcius:
+    tempF = float(input("enter the temperature: "))
+    print("the conversion is: ", ((tempF - 32) * 5/9))
 
 print(' ')
 

@@ -68,6 +68,5 @@ start_day = input("what is the day (0[sunday] to 6[saturday]? ")
 length = input("what is length of stay? ")
 calc1 = int(start_day)
 calc2 = int(length)
-total = calc1 + calc2
-day = total % 7
-print("will return on the day" , str(week(day)))
+total = (calc1 + calc2) % 7
+print("will return on the day" , str(week(total)))
